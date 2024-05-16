@@ -42,7 +42,7 @@ body{
 
 .section-1{
     width: 100%;
-    background-image: url("s-01.avif");
+    background-image: url("images/s-01.avif");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -144,7 +144,7 @@ h2.h3{
 }
 .section-3{
     width: 118%;
-    background-image: url("s-02.jpg");
+    background-image: url("images/s-02.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 100vh;
@@ -216,7 +216,7 @@ h2.h3{
 }
 
 .section-5{
-    background-image: url("s-12.avif");
+    background-image: url("images/s-12.avif");
     width: 100%;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -292,7 +292,7 @@ h2.h3{
 
 .section-9{
     width: 100%;
-    background-image: url("s-18.avif");
+    background-image: url("images/s-18.avif");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 50vh;
