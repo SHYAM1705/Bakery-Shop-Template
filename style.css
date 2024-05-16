@@ -1,0 +1,420 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+}
+
+.footer{
+    width: 100%;
+    height: 4em;
+    margin-top: 350px;
+    background-color: rgb(56, 55, 55);
+    color: white;
+    text-align: center;
+}
+
+.footerHead{
+    margin-top: 20px;
+}
+
+.logo{
+    color: #7a7171;
+}
+
+.bar1, .bar1, .bar1 {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+    margin-right: 40px;
+  }
+
+.section-1{
+    width: 100%;
+    background-image: url("s-01.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+
+    
+}
+
+.section-1::before{
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    background-color: #00000066;
+}
+
+.container1{
+    width: 100%;
+    margin-top: 30px;
+
+}
+.div1{
+    border: 20px solid orange;
+    margin-top: 10em;
+    height: 400px;
+    text-align:left;
+    color: white;
+}
+.btn1 , .btn2{
+    border: 2px solid orange;
+
+    border-radius: 35px;
+    color: white;
+    font-size: 1.5rem;
+    background-color: orange;
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+p{
+    text-align: justify;
+    width: 90%;
+    margin: auto;
+}
+.p1{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.h1{
+    font-size: 2rem;
+    font-weight: inherit;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.h3,h3 {
+    font-size: 2.75em;
+    font-weight: bolder;
+    margin-bottom: 30px;
+  
+}
+h2.h3{
+    font-weight: bold;
+}
+.h3{
+    text-align: left;
+    margin-left: 0px;
+   
+}
+
+.row{
+    padding-top: 20px;
+}
+
+#row1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.p2 {
+    margin-top: 10px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+  
+    color: lightslategray;
+}
+.btn-sec-2{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+.section-3{
+    width: 118%;
+    background-image: url("s-02.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+.icon{
+    width: 5vw;
+    height: 10vh;
+    margin-left: 20px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.b1{
+    margin-bottom: 10px;
+    color: orange;
+    text-align: left;
+    margin-left: 0px;
+}
+
+.b2{
+    margin-bottom: 10px;
+    color: orange;
+    text-align: left;
+    margin-left: 15px;
+}
+.div-3{
+    background-color: rgb(39 38 38 / 86%);
+    color: white;
+    height: 280px;
+    width: 90%;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 30px;
+    
+}
+.p7{
+    margin-left: 20px;
+    margin-top: 5px;
+    text-align: left;
+}
+.link{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.p4{
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 0px;
+}
+
+.p-4{
+    width: 50%;
+    margin: auto;
+    color: lightslategray;
+}
+
+
+.image1{
+    width: 100%;
+    height: 40vh;
+    border: 5px solid orange;
+}
+
+
+.section-4{
+    margin-bottom: 100px;
+}
+
+.section-5{
+    background-image: url("s-12.avif");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 80vh;
+}
+
+.div2{
+   padding-top: 6em;
+   color: white;
+   margin-top: 10em;
+}
+
+.btn-primary{
+  margin: 3em;  
+}
+
+#btn5{
+    background-color: orange;
+    border-radius: 30px;
+    width: 10%;
+    
+}
+
+.btn3{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.p5{
+    margin: auto;
+    width: 50%;
+}
+
+.div4 img{
+    width: 100%;
+    height: 60vh;
+    margin: auto;
+    border: 5px solid orange;
+}
+
+
+
+
+.section-8{
+    margin-top: 20px;
+}
+
+.div5{
+    margin-bottom: 7em;
+}
+
+.p3{
+    width: 60%;
+    text-align: center;
+    text-indent: inherit;
+    margin: auto;
+}
+
+.img2{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+
+.heading{
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section-9{
+    width: 100%;
+    background-image: url("s-18.avif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 50vh;
+   
+}
+.div6 {
+    background-color: white;
+    color: black;
+    position: absolute;
+    width: 100%;
+    top: -6em;
+    height: 50vh;
+
+}
+.div7 {
+    background-color: orange;
+    position: absolute;
+    width: 50%;
+    top: -6em;
+    height: 50vh;
+}
+.div7 h2 {
+    font-size: 2em;
+    color: #fbf6f6;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+.div7 ul li{
+    list-style-type: none;
+}
+
+h2{
+    text-align: left;
+}
+
+.anchor{
+    text-decoration: underline;
+    float: left;
+}
+
+.h7{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+.address {
+    width: 30%;
+    margin-left: 35%;
+    text-align: center;
+    text-decoration: underline;
+    color: #d8a851;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.ul1 li{
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 30px;
+    font-weight:500;
+    color: rgb(219 209 209);
+   
+    
+}
+
+h4{
+     color:#7a7171;
+     text-align: center;
+}
+
+
+
+
+.p6{
+    text-align: justify;
+    width: 80%;
+    margin-left: 0px;
+}
+
+#last{
+    width: 100%;
+    margin: auto;
+    margin-left: 100px;
+    
+}
+
+.section-11{
+    background-color: #494949;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 80px;
+    margin-top: 350px;
+}
+
+#contain{
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#section7{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 0px;
+}
+
+#section7-1{
+        padding-left: 28px;
+        padding-right: 24px;
+}
+
+.image3 img{
+    width:99%;
+    height: 60vh;
+    /* margin-right: 5px; */
+}
+
